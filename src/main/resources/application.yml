@@ -11,6 +11,7 @@ spring:
     properties:
       hiberante:
         format_sql: true
+      open-in-view: true
 
 logging.level:
   org.hibernate.SQL: debug
