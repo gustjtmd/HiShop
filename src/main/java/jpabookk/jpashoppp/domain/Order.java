@@ -64,7 +64,6 @@ public class Order {
         order.setOrderDate(LocalDateTime.now());
         return order;
     }
-
     //==비즈니스 로직==//
 
     /**

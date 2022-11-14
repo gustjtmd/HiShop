@@ -57,7 +57,6 @@ public class ItemController {
         form.setStockQuantity(item.getStockQuantity());
         form.setAuthor(item.getAuthor());
         form.setIsbn(item.getIsbn());
-
         model.addAttribute("form", form);
 
         return "items/updateItemForm";

@@ -1,7 +1,6 @@
 package jpabookk.jpashoppp.exception;
 
 public class NotenoughStockException extends RuntimeException{
-
     public NotenoughStockException() {
         super();
     }

@@ -9,6 +9,7 @@ public class JpashopppApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(JpashopppApplication.class, args);
+
 	}
 
 }
