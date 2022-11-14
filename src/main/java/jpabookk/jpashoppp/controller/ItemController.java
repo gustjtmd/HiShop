@@ -59,6 +59,7 @@ public class ItemController {
         form.setIsbn(item.getIsbn());
 
         model.addAttribute("form", form);
+
         return "items/updateItemForm";
     }
 
